@@ -164,7 +164,7 @@ Trader.prototype.getFee = function(callback) {
 
   this.bittrexApi.getcurrencies(set); */
 
-   callback(false, parseFloat(0.00025));
+   callback(false, parseFloat(0.0025));
 }
 
 Trader.prototype.buy = function(amount, price, callback) {
